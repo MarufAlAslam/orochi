@@ -364,9 +364,12 @@ p{
 }
 
 @media screen and (max-width:992px){
-	.heroSlider {
-		padding: 65px 0;
+	.heroSlider .contents{
+		padding-bottom: 65px;
 	}
+	/* .heroSlider {
+		padding: 40px 0;
+	} */
 	.heroSlider .slick-dots {
 		bottom: -35px;
 		left: 7%;
@@ -399,9 +402,9 @@ p{
 	.nav-link.text-dark {
 		padding: 5px 25px !important;
 	}
-	.heroSlider {
+	/* .heroSlider {
 		padding: unset;
-	}
+	} */
 	.contents .col-md-6 {
 		margin-bottom: 70px;
 	}
@@ -475,6 +478,13 @@ p{
 		width: 140px;
 	}
 	.card-img-top.img-fluid.w-75.ml-auto {
+		margin: auto;
+	}
+	.hero22.klipartz.img-fluid {
+		width: 75%;
+		margin: auto;
+	}
+	.klipartz.img-fluid {
 		margin: auto;
 	}
 }
